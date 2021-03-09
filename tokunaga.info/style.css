@@ -1,0 +1,278 @@
+/* リセットCSS */
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+/* ヘッダー */
+.title {
+  color: white;
+}
+header {
+  height: 50px;
+  background-color: #666;
+  padding: 10px 0;
+  display: flex;
+}
+
+.heading {
+  width: 50%;
+  margin-left: 30px;
+}
+
+.navbar {
+  width: 50%;
+  padding: 20px;
+}
+
+a {
+  text-decoration:none; 
+  color: black;
+  
+}
+.nav-lists {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+  
+li {
+  list-style: none;
+}
+/* 省略 */
+
+/* first-viewクラスからbottom-contentクラスまでの要素の親要素 */
+.contents {
+  background-color: white;
+}
+
+.first-view {
+  height: 60vh;
+}
+
+.top-image {
+  height: 100%;
+  width: 100%;
+}
+
+/* 新着情報 */
+.upper-content {
+  height: 450px ;
+  margin: 0 160px;
+}
+
+/* スタイリスト紹介 */
+.middle-content {
+  height: 450px ;
+  margin: 0 160px;
+}
+
+/* フォーム */
+.bottom-content {
+  height: 800px ;
+  margin: 0 160px;
+}
+
+/* フッター */
+footer {
+  height: 50px;
+  background-color: #000;
+}
+/* 自己紹介 */
+.profile-title {
+  text-align: center;
+  font-size: 50px;
+}
+.top-profile hr {
+  border-color: rgb(47, 147, 123);
+  width: 150px;
+  margin:auto;
+}
+
+.top-profile {
+  width: 880px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', 'mplus-1p-regular', sans-serif;
+}
+.first-content {
+  margin-top: 40px;
+  width: 880px;
+  margin: 0 auto;
+}
+.profile-icon {
+  width: 40%;
+  float: left;
+  box-sizing: border-box;
+}
+.subsection {
+  margin-bottom: 32px;
+}
+.icon {
+  width: 70%;
+  border-radius: 50%;
+}
+/* My skills */
+.list {
+  text-align: center;
+    font-size: 20px;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+td {
+  padding: 5px;
+  box-sizing: border-box;
+}
+.list hr {
+  border-color: rgb(47, 147, 123);
+  width: 150px;
+  margin:auto;
+}
+/* portfolio */
+.portfolio {
+  background: white;
+    padding: 5% 0 8% 0;
+    text-align: center;
+}
+.container {
+  padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+  text-align: center;
+}
+.section-title hr {
+  border-color: rgb(47, 147, 123);
+  width: 150px;
+  margin:auto;
+}
+.space {
+  padding: 20px;
+}
+h3,h2,h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+/* portfolio */
+.portfolios {
+  display: flex;
+}
+h3 {
+  margin-top: 3%;
+}
+h5 {
+  font-family: 'Courier New', Courier, monospace;
+}
+.titles {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 14%;
+  margin-right: 12%;
+  font-size: 20px;
+}
+.img-responsive {
+  height: 100%;
+  width: 100%;
+}
+.row {
+    margin-left: -15px;
+}
+
+.portfolio-item, .img-responsive {
+  padding: 1vw;
+}
+
+.style {
+  display: block;
+}
+.portfolio-desc {
+  padding: 34px 0px;
+  background-color: white;
+  margin: 30px 0 10px 0;
+  border: 1px solid #ddd;
+  display: none;
+}
+.portfolio-desc, table {
+  width: 70%;
+  align-content: center;
+  margin: auto 10%;
+  margin-top: 30px;
+  margin-left: 15%;
+}
+.portfolio-desc{
+  margin-left: 15%;
+}
+th,td {
+  text-align: center;
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.portfolio {
+  text-align: center;
+}
+table .tech img {
+  max-width: 100px;
+  max-height: 50px;
+}
+.list-inline {
+  display: flex;
+}
+/* contact */
+#contact {
+  background-color: #666;
+  padding: 5% 0;
+  text-align: center;
+  color: white;
+}
+
+#contact .contact-list .contact-item {
+  margin-top: 12px;
+}
+.list-inline {
+  padding-left: 0;
+  margin-left: -13px;
+  list-style: none;
+  justify-content: space-around;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.fa-github:before {
+  content: "\f09b";
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.fa-twitter, .fa-github, .fa-facebook-f {
+  color: white;
+}
+
